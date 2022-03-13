@@ -5,5 +5,6 @@ fonts with thiner strokes require large font size for body text.
 #### Headline text  
 headline to be contrasting but 2-3 lines only.  
 for body text use system default font and use another font for headlines/titles.  
+![fonts  guide](fonts.png)  
 
 
