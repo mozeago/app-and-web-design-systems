@@ -14,8 +14,19 @@ iOS’s default font size is 17px SF Pro and secondary font size is 15px.
 ## Desktop Web Typography Guidelines  
 #### Text-heavy pages.  
 Articles, blogs, news, etc. These are pages where the primary purpose the user has on the page is to read. There is very little in terms of interaction – perhaps just clicking a few links.  
+16px – absolute minimum for text-heavy pages
+18px – a better font size to start with. You’re not printing out a single-spaced Word document; you’re writing for people sitting a couple feet from their decade-old monitors.
+20px+ – may feel awkwardly large at first, but is always worth trying out in your design app. The best-looking text-heavy site on the web, Medium.com, has a default article text size of 21px.
 #### Interaction-heavy pages.  
 Apps that involve more hovering, clicking, searching for an item in a list or table, editing, typing, etc. There may be plenty of text on the page, but it’s not stuff you read straight through like a book.  
+Instead, 14px-16px is the norm.  
+##### 1. Header font size.  
+This is the biggest font size on your page. Use it for the headline or section titles. If you have both a headline and section titles, you should almost certainly be using two different font sizes here.
+##### 2. Default font size.  
+This is the most common font size on your page, and should be used for all body text – as well as most controls, like text boxes, dropdowns, buttons, and menus. The key header mistake beginning designers make here is to use many font sizes for elements that should all be one font size.
+##### 3. Secondary font size.  
+This is a font size – usually about 2pt smaller than your default font size – that you use for less-important details of the site. Supporting information and stats, sometimes captions, etc.  
+##### 4. Tertiary/caption/label/wildcard font size  
 
 
 
