@@ -1,4 +1,18 @@
-## App & Web Design Systems
+## App & Web Design Systems  
+Define a restrictive type scale in advance and use that to make any future
+font size decisions.  
+1. Font size
+2. Font weight
+3. Line height
+4. Color
+5. Margin
+6. Padding
+7. Width
+8. Height
+9. Box shadows
+10. Border radius
+11. Border width
+12. Opacity
 ### Font size
 minimum font for body text to 16sp to 18sp(Roboto) for android and 17pt for iOS.  
 fonts with thiner strokes require large font size for body text.  
@@ -27,7 +41,21 @@ This is the most common font size on your page, and should be used for all body 
 ##### 3. Secondary font size.  
 This is a font size – usually about 2pt smaller than your default font size – that you use for less-important details of the site. Supporting information and stats, sometimes captions, etc.  
 ##### 4. Tertiary/caption/label/wildcard font size  
-
-
+## fonts combinations  
+Heading & body text  
+1. NUNITO & SOURCE SERIF PRO
+2. Expletus Sans & Hind  
+3. IBM Plex Serif & IBM Plex Sans  
+4. Epilogue (Bold & Regular)  
+5. Red Hat Display (Bold & Regular)  
+6. Fraunces & Commissioner  
+7. Libre Baskerville and Roboto  
+8. Lexend Deca (Bold & Regular)---xxxx---  
+9. Poppins (Bold & Regular)  
+10. Roboto & Libre Franklin  
+11. JetBrains & IBM Plex  
+12. Barlow (Bold & Regular)  
+13. Vollkorn & Open Sans  
+14. 
 
 
