@@ -108,6 +108,29 @@ Guidelines on how to create spacing for mobile devices. I’ve seen suggestions 
 5. Also, be sure to review how your font handles the conjunction of “r” and “n” beside one another. Can you differentiate each letter or do they smoosh together as one indistinguishable unit? Mobile visitors don’t have time to stop and figure out what those characters are, so make sure you use a typeface that gives each character its own space.  
 6. Use fonts that are [compatible across as many devices](https://jordanm.co.uk/tinytype/) as possible. Your best bets will be: Arial, Courier New, Georgia, Tahoma, Times New Roman, Trebuchet MS and Verdana.  
 7. When you’re feeling comfortable with mobile typography and want to branch out a little more, take a look at this list of the [best web-safe](https://websitesetup.org/web-safe-fonts-html-css/) typefaces from WebsiteSetup. You’ll find here that most of the choices are your basic serif and sans serif types. It’s definitely nothing exciting or earth-shattering, but it will give you some variation to play with if you want to add a little more flavor to your mobile type.  
+#################################################--------------------------------------#####################################
+**Roboto** and **Noto** are the standard typefaces on Android and Chrome.  
+Roboto is the standard typeface on Android.  
+Noto is the standard typeface for all languages on Chrome and Android for all languages not covered by Roboto.  
+##### App bar  
+Title style, Medium 20sp  
+##### Buttons  
+*English:* Medium 14sp, all caps  
+*Dense:* Medium 15sp, all caps  
+*Tall:* Bold 15sp  
+##### Subheading  
+*English:* Regular 16sp (device), 15sp (desktop)  
+*Dense:* Regular 17sp (device), 16sp (desktop)  
+*Tall:* Regular 17sp (device), 16sp (desktop)  
+##### Body 1  
+*English:* Regular 14sp (device), 13sp (desktop)  
+*Dense:* Regular 15sp (dense), 14sp (desktop)  
+*Tall:* Regular 15sp (device), 14sp (desktop)  
+##### Text contrast ratios
+*Minimum:* 4.5:1  
+*Preferred:* 7:1
+
+
 
 
 
