@@ -12,7 +12,8 @@ Short, glanceable strings of text lead to faster reading and greater comprehensi
 
 1. They are larger in size (specifically, 4mm as opposed to 3mm).
 2. They are in all caps.
-3. Lettering width is regular (and not condensed). A contrast of 4.5 to 1 should be established between the text and background for optimal readability. There are a few exceptions to the rule:  
+3. Lettering width is regular (and not condensed).  
+A contrast of 4.5 to 1 should be established between the text and background for optimal readability. There are a few exceptions to the rule:  
 
 If you’re unsure of how to establish that ratio between your font’s color and the background upon which it sits, use a color contrast checking tool like [WebAIM.](https://webaim.org/resources/contrastchecker/)  
 Be mindful of s using opacity or other color settings that may compromise the color you’ve chosen. While the HEX color code will check out just fine in the tool, it may not be an accurate representation of how the color actually displays on a mobile device (or any screen, really).  
