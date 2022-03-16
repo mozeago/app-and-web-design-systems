@@ -12,18 +12,22 @@ font size decisions.
 9. Box shadows
 10. Border radius
 11. Border width Opacity  
+
 **Typography:** This term refers to the technique used in styling, formatting, and arranging “printed” (as opposed to handwritten) text.  
 **Typeface:** This is the classification system used to label a family of characters. So, this would be something like Arial, Times New Roman, Calibri, Comic Sans, etc.  
 **Font:** This drills down further into a website’s typeface. The font details the typeface family, point size, and any special stylizations applied. For instance, 11-point Arial in bold.  
 **Font Weight:** This is the other part of defining a typeface as a font. Weight refers to any special styles applied to the face to make it appear heavier or lighter.  
 **Kerning:** This pertains to the space between two letters. It can be adjusted in order to create a more aesthetically pleasing result while also enhancing readability. You will need a design software like Photoshop to make these types of adjustments.  
 **Tracking:** Tracking, or letter-spacing, is often confused with kerning as it too relates to adding space in between letters. However, whereas kerning adjusts spacing between two letters in order to improve *appearances*, tracking is used to adjust spacing **across a line**. This is used more for the purposes of fixing density issues while reading. Tracking will affect the number of works in a single line for readability.  
-Leading: Leading, or line spacing, is the amount of distance granted between the baselines of text (the bottom line upon which a font rests). Like tracking, this can be adjusted to fix density issues.  
-Short, glanceable strings of text lead to faster reading and greater comprehension when:
+Leading: Leading, or line spacing, is the amount of distance granted between the baselines of text (the bottom line upon which a font rests). Like tracking, this can be adjusted to fix density issues. 
 
+
+Short, glanceable strings of text lead to faster reading and greater comprehension when:  
 1. They are larger in size (specifically, 4mm as opposed to 3mm).
 2. They are in all caps.
-3. Lettering width is regular (and not condensed).  
+3. Lettering width is regular (and not condensed). 
+
+
 A contrast of 4.5 to 1 should be established between the text and background for optimal readability. There are a few exceptions to the rule:  
 -Text sized using 18-point or a bold 14-point only needs a contrast of 3 to 1.  
 -Text that doesn’t appear in an active part of the web page doesn’t need to abide by this rule.  
