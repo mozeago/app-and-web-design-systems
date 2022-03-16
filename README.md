@@ -14,7 +14,9 @@ Short, glanceable strings of text lead to faster reading and greater comprehensi
 2. They are in all caps.
 3. Lettering width is regular (and not condensed).  
 A contrast of 4.5 to 1 should be established between the text and background for optimal readability. There are a few exceptions to the rule:  
-
+1. Text sized using 18-point or a bold 14-point only needs a contrast of 3 to 1.  
+2. Text that doesn’t appear in an active part of the web page doesn’t need to abide by this rule.  
+3. The contrast of text within a logo can be set at the designer’s discretion.  
 If you’re unsure of how to establish that ratio between your font’s color and the background upon which it sits, use a color contrast checking tool like [WebAIM.](https://webaim.org/resources/contrastchecker/)  
 Be mindful of s using opacity or other color settings that may compromise the color you’ve chosen. While the HEX color code will check out just fine in the tool, it may not be an accurate representation of how the color actually displays on a mobile device (or any screen, really).  
 To solve this problem and ensure you have a high enough contrast for your fonts, use a color eyedropper tool built into your browser like the ones for Firefox or Chrome. Simply hover the eyedropper over the color of the background (or font) on your web page, and let it tell you what the actual color code is now. 
