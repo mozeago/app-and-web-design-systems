@@ -21,18 +21,18 @@ If you’re unsure of how to establish that ratio between your font’s color an
 Be mindful of s using opacity or other color settings that may compromise the color you’ve chosen. While the HEX color code will check out just fine in the tool, it may not be an accurate representation of how the color actually displays on a mobile device (or any screen, really).  
 To solve this problem and ensure you have a high enough contrast for your fonts, use a color eyedropper tool built into your browser like the ones for Firefox or Chrome. Simply hover the eyedropper over the color of the background (or font) on your web page, and let it tell you what the actual color code is now.  
 
-5. Font size
-6. Font weight
-7. Line height
-8. Color
-9. Margin
-10. Padding
-11. Width
-12. Height
-13. Box shadows
-14. Border radius
-15. Border width
-16. Opacity
+1. Font size
+2. Font weight
+3. Line height
+4. Color
+5. Margin
+6. Padding
+7.  Width
+8.   Height
+9.   Box shadows
+10.    Border radius
+11.    Border width
+12.    Opacity
 ### Font size
 minimum font for body text to 16sp to 18sp(Roboto) for android and 17pt for iOS.  
 fonts with thiner strokes require large font size for body text.  
