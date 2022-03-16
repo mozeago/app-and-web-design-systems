@@ -1,6 +1,18 @@
 ## App & Web Design Systems  
 Define a restrictive type scale in advance and use that to make any future
 font size decisions.  
+1. Font size
+2. Font weight
+3. Line height
+4. Color
+5. Margin
+6. Padding
+7. Width
+8. Height
+9. Box shadows
+10. Border radius
+11. Border width
+Opacity
 **Typography:** This term refers to the technique used in styling, formatting, and arranging “printed” (as opposed to handwritten) text.  
 **Typeface:** This is the classification system used to label a family of characters. So, this would be something like Arial, Times New Roman, Calibri, Comic Sans, etc.  
 **Font:** This drills down further into a website’s typeface. The font details the typeface family, point size, and any special stylizations applied. For instance, 11-point Arial in bold.  
@@ -17,6 +29,7 @@ A contrast of 4.5 to 1 should be established between the text and background for
 -Text sized using 18-point or a bold 14-point only needs a contrast of 3 to 1.  
 -Text that doesn’t appear in an active part of the web page doesn’t need to abide by this rule.  
 -The contrast of text within a logo can be set at the designer’s discretion.  
+
 If you’re unsure of how to establish that ratio between your font’s color and the background upon which it sits, use a color contrast checking tool like [WebAIM.](https://webaim.org/resources/contrastchecker/)  
 Be mindful of s using opacity or other color settings that may compromise the color you’ve chosen. While the HEX color code will check out just fine in the tool, it may not be an accurate representation of how the color actually displays on a mobile device (or any screen, really).  
 To solve this problem and ensure you have a high enough contrast for your fonts, use a color eyedropper tool built into your browser like the ones for Firefox or Chrome. Simply hover the eyedropper over the color of the background (or font) on your web page, and let it tell you what the actual color code is now. 
