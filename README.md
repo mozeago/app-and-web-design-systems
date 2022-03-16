@@ -84,6 +84,31 @@ Minimum body text size is 24dp – reserve subtext sizes for non-crucial informa
 Google Sans should be used for type sizes 32dp and larger. Roboto is used everywhere else because it is legible in smaller sizes. When using a display font best suited to large text, such as Google Sans, keep it at type sizes of 32dp or larger. Use Roboto for smaller, secondary text because it maintains good legibility at sizes below 32dp.  
 ![typography do](typography-do1.png)  
 Use the medium font weight sparingly. Save it for when you need to emphasize the primary or active text, such as the Recents tab in this example, or to establish visual hierarchy.  
+#### TRACKING
+Plain and simple: tracking in mobile web design needs to be used in order to control density. The standard recommendation is that there be no more than between 30 and 40 characters to a line. Anything more or less could affect readability adversely.  
+
+content that appears above the fold on a 30-inch desktop monitor equates to five swipes on a 4-inch mobile device.  
+a mobile session, on average, usually lasts about only 72 seconds. Compare that to desktop at 150 seconds.  
+This means two things for you:  
+1. You absolutely need to cut out the excess on mobile. If this means creating a completely separate and shorter set of content for mobile, do it.  
+2. Be very careful with leading.  
+
+Too much **leading** and you could unintentionally be asking users to scroll even more than they might have to.  
+And with every scroll comes the possibility of fatigue, boredom, frustration, or distraction getting in the way.  
+So, you need to strike a good balance here between using line spacing to enhance readability while also reigning in how much work they need to do to get to the bottom of the page.  
+Guidelines on how to create spacing for mobile devices. I’ve seen suggestions for anywhere between 120% to 150% of the font’s point size. Since you also need to consider accessibility when designing for mobile, I’m going to suggest you follow WCAG’s guidelines:  
+1. Spacing between lines needs to be 1.5 (or 150%, whichever ratio works for you).
+2. Spacing between paragraphs then needs to be 2.5 (or 250%).  
+
+#### Recommendations  
+1. Don’t be afraid to start with a system default font. They’re going to be your safest choices until you get a handle on how far you can push the limits of mobile typography.  
+2. Use only a sans serif or serif font. If your desktop website uses a decorative or handwritten font, ditch it for something more traditional on mobile. That said, you don’t have to ignore decorative typefaces altogether. 
+3. Never use more than two typefaces on mobile. There just isn’t enough room for visitors to handle that many options visually. Make sure your two typefaces complement one another. Specifically, look for faces that utilize a similar character width. The design of each face may be unique and contrast well with the other, but there should still be some uniformity in what you present to mobile visitors’ eyes.  
+4. Avoid typefaces that don’t have a distinct set of characters. For instance, compare how the uppercase “i”, lowercase “l” and the number “1” appear beside one another.  
+5. Also, be sure to review how your font handles the conjunction of “r” and “n” beside one another. Can you differentiate each letter or do they smoosh together as one indistinguishable unit? Mobile visitors don’t have time to stop and figure out what those characters are, so make sure you use a typeface that gives each character its own space.  
+6. Use fonts that are [compatible across as many devices](https://jordanm.co.uk/tinytype/) as possible. Your best bets will be: Arial, Courier New, Georgia, Tahoma, Times New Roman, Trebuchet MS and Verdana.  
+7. When you’re feeling comfortable with mobile typography and want to branch out a little more, take a look at this list of the [best web-safe](https://websitesetup.org/web-safe-fonts-html-css/) typefaces from WebsiteSetup. You’ll find here that most of the choices are your basic serif and sans serif types. It’s definitely nothing exciting or earth-shattering, but it will give you some variation to play with if you want to add a little more flavor to your mobile type.  
+
 
 
 
