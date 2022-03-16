@@ -11,8 +11,7 @@ font size decisions.
 8. Height
 9. Box shadows
 10. Border radius
-11. Border width
-Opacity
+11. Border width Opacity  
 **Typography:** This term refers to the technique used in styling, formatting, and arranging “printed” (as opposed to handwritten) text.  
 **Typeface:** This is the classification system used to label a family of characters. So, this would be something like Arial, Times New Roman, Calibri, Comic Sans, etc.  
 **Font:** This drills down further into a website’s typeface. The font details the typeface family, point size, and any special stylizations applied. For instance, 11-point Arial in bold.  
