@@ -177,4 +177,37 @@ Line spacing as a % should actually increase with smaller font sizes. This is be
 11. Light-on-dark text — Light type set on a dark background usually benefits from a small increase in letter-spacing.
 12. Font weight — Like with font size, the relationship between font weight and letter-spacing follows a simple pattern: as weight increases, letter-spacing decreases, and as weight decreases, letter-spacing increases.  
 
+The capitalisation shouldn’t be used where reading long text is required. Use capital text in places such as tabs where user attention is important. A basic rule is to only use uppercase letters in headers, captions, or other UI labels where text length is shorter than one line.  
+**Title case** — this is the practice of making the first letter of each word upper-case. Typically it is recommended to only use this in the case of headlines and possibly labels.  Apple’s design guidelines recommend title case for many UI elements, including alert titles, menu items, and buttons.  
+**Sentence case** — With sentence case, you capitalize the first letter of the sentence (and any proper nouns). Sentence case looks casual, cleaner, improves readability and nobody ever complained that sentence case caused them any loss of business. Google’s Material Design follows it earnestly.  
+However you decide to deal with your letter casing, one key take away is to remain consistent on how it is applied throughout your design system.  
+**Font-style**
+What I am referring to is the style applied to text; like bold, italics and underlines.  
+1. Bold or italic — think of them as mutually exclusive.  
+2. Use bold and italic as little as possible — They are tools for emphasis. But if everything is emphasized, then nothing is emphasized.  
+3. With a serif font, use italic for gentle emphasis, or bold for heavier emphasis.  
+4. If you’re using a sans serif font, skip italic and use bold for emphasis — most sans serif italic fonts just have a gentle slant that doesn’t stand out on the page.  
+
+When it comes to underlines, reserve this exclusively for links. Since the beginning of the web, underlines have been used on links, if you use them for any other reason, users will expect them to be clickable.  
+If you use REMs, set your base font size up on the root element. On web, this would be on the body tag. All other font sizes then become a multiple of this base font size. Your base font size will always equate to 1rem. e.g  
+- If you set base font to 16px, 1rem equals 16px.
+- Represented in units, fonts would then look something like this:
+- Paragraph = 1rem (16px)
+- Heading 1 = 2.5rem (40px)
+- Heading 2 = 2rem (32px)
+- Heading 3 = 1.5rem (24px)
+- line-height = 1.5rem (24px)  
+
+1. Pick your base font colour (usually black or close to black) and then any overrides for specific use cases like alerts messages.
+2. Assign a specific colour to links.
+3. Decide on specific colour applications for components. For example, a button could possibly use a tint from the base button colour.
+4. Consider text that needs to appear on dark and light backgrounds.  
+
+***Accessibility*** is the inclusive practice of ensuring there are no barriers that prevent interaction with, or access to, websites on the World Wide Web by people with disabilities. When sites are correctly designed, developed and edited, generally all users have equal access to information and functionality.  
+1. Font size — i.e body copy should not be smaller than 16px
+2. Font colour — always consider colour contrast
+3. Font weight — i.e lighter fonts can be hard to read at small sizes
+4. Letter-spacing — tighter spacing on large text and broader spacing on small text can improve accessibility
+5. Line height — visually impaired people will find copy hard to read if the line-height is set to 100% or large spacing like 250%
+6. Letter-case — i.e. don’t use all-caps for body copy.  
 
