@@ -48,7 +48,7 @@ Secondary text should be about 2 sizes smaller than your paragaph text. like les
 Always view your designs on an actual device.  
 Material Design’s default font size is 16px Roboto and secondary font size is 14px.  
 iOS’s default font size is 17px SF Pro and secondary font size is 15px.  
-## Desktop Web Typography Guidelines  
+### Desktop Web Typography Guidelines  
 #### Text-heavy pages.  
 Articles, blogs, news, etc. These are pages where the primary purpose the user has on the page is to read. There is very little in terms of interaction – perhaps just clicking a few links.  
 16px – absolute minimum for text-heavy pages
@@ -64,7 +64,7 @@ This is the most common font size on your page, and should be used for all body 
 ##### 3. Secondary font size.  
 This is a font size – usually about 2pt smaller than your default font size – that you use for less-important details of the site. Supporting information and stats, sometimes captions, etc.  
 ##### 4. Tertiary/caption/label/wildcard font size  
-## fonts combinations  
+### fonts combinations  
 Heading & body text  
 1. NUNITO & SOURCE SERIF PRO
 2. Expletus Sans & Hind  
@@ -135,21 +135,34 @@ Use built-in text styles whenever possible. The built-in text styles let you exp
 Leading is the space between lines. In design, the standard leading should be 120% the point size of the font. Another common used tip: short line length requires less leading.  
 Keep the number of character per line within 30–40 is a good choice.  
 Space in mobile typography mainly contains: space between lines, space in the margins, paragraph space. Proper space in mobile typography can help user better interact with the text. Designers can consider to start in the 10 to 20 percent range. Do not make the area of space too much for the mobile screen is not large, or you are waste the room.  
+
+  
 Mobile screens have a more limited space, so many designers apply only 2 levels. A headline and a body is enough, headlines is to grab the reader instantly and the body toward readability.  
+
 Left side alignment is the best choice of the rest 3. It can resulting in a ragged right edge, which allows user’s eyes jump from one end of a line to the next consistently. use left side alignment; while for the title or short lines, centered looks good.  
+
 On a mobile, we usually have some actions like purchasing products, make a order or book a ticket. Functional typography should be highlighted among the other and clickable elements should be big enough to tap on them.  
+
 It’s requirement for designers to consider how mobile typography will look on different devices.  
+
 Paragraphs may also need to be represented at different sizes. Generally three different sizes may be required, a regular paragraph size, then a larger size for an introductory or lead paragraph, and then a smaller size for things like footnotes for example. Consider using token names like text-small, text-medium or text-large or using the common t-shirt size metaphor text-s, text-m and text-l.  
-You may use a <h2> title on a card at one size, and <h2> within an article page, but represented at a different size. Both may have the same hierarchy, but their use case is very different.  
-It’s not enough to pick your font sizes and assign them to headings like <h1> or <h2> —assign your sizes to tokens. Why? In HTML coding, the heading tags from <h1> to <h6> give semantic hierarchy for SEO, they do not represent text size.  
-  Typically, heavier font weights are used for headings and titles, and lighter font weights for paragraphs. Be cautious though when using light font weights on smaller text, as this could lead to accessibility issues.
+
+You may use a h2 title on a card at one size, and h2 within an article page, but represented at a different size. Both may have the same hierarchy, but their use case is very different.  
+It’s not enough to pick your font sizes and assign them to headings like h1 or h2 —assign your sizes to tokens. Why? In HTML coding, the heading tags from h1 to h6 give semantic hierarchy for SEO, they do not represent text size.  
+
+Typically, heavier font weights are used for headings and titles, and lighter font weights for paragraphs. Be cautious though when using light font weights on smaller text, as this could lead to accessibility issues.
+
 For a more polished typography system, instead of choosing one weight for headings, and a second for body copy, spend a little more time picking font weights for each different heading size that best compliment the overall hierarchy of your type.  
- Be cautious when choosing font weights, every additional weight you add, adds to the download size.  
-  A good trick to measure the ideal line length is by using the letters of alphabet, if the alphabet fits within the space between two and three times, you’re in the safe zone.  
+
+Be cautious when choosing font weights, every additional weight you add, adds to the download size.  
+
+A good trick to measure the ideal line length is by using the letters of alphabet, if the alphabet fits within the space between two and three times, you’re in the safe zone.  
   
 The ideal line length on mobile would be in the range of 35 to 40 characters per line.  
- Some modern design applications like Photoshop still use the term ‘leading’, while in HTML and CSS, the attribute is called ‘line-height’. Leading, line spacing and line height all refer to the same thing.  
+
+Some modern design applications like Photoshop still use the term ‘leading’, while in HTML and CSS, the attribute is called ‘line-height’. Leading, line spacing and line height all refer to the same thing.  
 Line height, or line spacing, is commonly measured as a percentage of font size. Conventional wisdom is that line spacing of 130%-150% is ideal for readability, but even up to 200% is acceptable.  
+
 Line spacing as a % should actually increase with smaller font sizes. This is because smaller fonts are already more difficult to read, and need more space around them for the eye to easily follow.  
 1. Aim for about 140%-180% for optimal readability and accessibility.  
 2. Limit line length to 70–80 characters.
@@ -157,6 +170,9 @@ Line spacing as a % should actually increase with smaller font sizes. This is be
 4. Small fonts need more spacing.
 5. Experiment with tighter spacing on pull quotes or other short texts.
 6. Check your line spacing when you change font or font size.  
-
-
-
+7. Capital letters — It’s almost always a good idea to increase letter-spacing with uppercase type.  
+8. Large text (e.g., titles and headings) should have decreased letter-spacing.
+9. Body text should have default tracking, or stick very close to default letter-spacing.
+10. Very small text should have increased letter-spacing.
+11. Light-on-dark text — Light type set on a dark background usually benefits from a small increase in letter-spacing.
+12. Font weight — Like with font size, the relationship between font weight and letter-spacing follows a simple pattern: as weight increases, letter-spacing decreases, and as weight decreases, letter-spacing increases.  
