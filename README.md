@@ -211,3 +211,37 @@ If you use REMs, set your base font size up on the root element. On web, this wo
 5. Line height — visually impaired people will find copy hard to read if the line-height is set to 100% or large spacing like 250%
 6. Letter-case — i.e. don’t use all-caps for body copy.  
 
+Not having a consistent unit of measurement can lead to layout inconsistencies between pages, particularly on projects with two or more designers. The “system” is only good if it is easy to follow and repeat.  
+#### 8 Point Grid Sytem  
+There are many ways to define your measurement units, my recommendation would be to use multiples of eight. Why eight you ask? Well eight is divisible by 2 and 4. This becomes important when considering displays that multiply pixel sizes due to higher resolutions. For example, a resolution of 1.5 would multiply 5px by this number resulting in a half pixel offset — The result is an edge that appears blurred, caused by the antialiasing of that half pixel. Half pixels don’t happen on an 8pt grid system.  
+A point (pt) is a measurement of space that is dependent on screen resolution. The simplest explanation is that at a “1x” resolution (or @1x), 1pt = 1px.
+At a “2x” resolution (@2x), 1pt = 4px because resolution doubles on both the X and Y axes making it 2px wide by 2px tall (2px x 2px).
+At a “3x” resolution (@3x), 1pt = 9px (3px x 3px) and so on.  
+Scaling by increments of 8 offers a good amount of options without overloading you with variables like a 6 point system, or limiting you like a 10 point system. Ultimately you have to decide what size is right for your audience.  
+#### Scale  
+An alternate approach to multiples of 8 is to use a scale. Spacing where the increments between spaces are based on a ratio. A popular scale to use is the Fibonacci sequence, a scale which occurs throughout nature. f the 8 point grid system appeals to you, identify a modular scale, pick the sizes closest to a multiple of 8 or 4 and use that to inform your spacing elements (rounding the sizes to the nearest multiple of 8).  
+##### The three general typography system archetypes:  
+**Marketing** — Built to tell a specific story and inspire visitors to spend their time and/or money on the site. White space is embraced, often more dramatic, utilising a larger scale ratio, resulting in more dramatic gaps between spacing elements.
+**Editorial** — To convey a large amount of information. Spacing is usually less dramatic in this cases with tighter spacing compared to the marketing archetype.
+**Data** — Built to solve a user problem like filing taxes, managing a git repo, or visualizing performance metrics. Spacing here can often be much tighter due to large amounts of data that need to be presented, the ratio between spacing is often much smaller than the two other archetypes mentioned above.  
+
+The great thing about EMs and REMs is they are abstract and based on a font-size. So, 1em or 1rem could translate into 16px or 160px, depending on the font sizes.  
+When using em units, the pixel value you end up with is a multiplication of the font size of the element being styled. For example, if a div has a font size of 18px, 10em would equate to 180px, i.e. 10 x 18 = 180.  
+When using REM units, the pixel size they translate to depends on the font size of the root element of the page, i.e. the HTML element. That root font size is multiplied by whatever number you’re using with your REM unit. For example, with a root element font size of 16px, 10rem would equate to 160px, i.e. 10 x 16 = 160.  
+Set the base font size upfront and then do the math, developing the px to REM ratio in line with your scale. Example: If you set base font to 16px, 1rem equals 16px.  
+Abstracting your values out into named tokens helps eliminate confusion. It provides a common language both designers and developers can use. Designers can still design using pixels, and developers can code in REMs, while the integrity of the system remains intact.  
+Two common naming conventions for tokens in this case are:
+1. Following a numeric sequence (space-1, space-2, space-3, etc.)
+i.e.
+space-1= 16px and 1rem
+space-2= 24px and 1.5rem
+space-3= 32px and 2rem
+etc…
+2. Using the convention of T-shirt sizes (xs, s, m, l, xl, etc.)
+i.e.
+space-s= 16px and 1rem
+space-m= 24px and 1.5rem
+space-l= 32px and 2rem
+etc…  
+
+
