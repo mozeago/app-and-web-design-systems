@@ -1,12 +1,14 @@
 ## App & Web Design Systems  
 Define a restrictive type scale in advance and use that to make any future
-font size decisions.  
-1. Font size. For iOS, use text size that’s at least 11 points, while for Android, choose 14 sp for main text.
-2. Font weight
-3. Line height
-4. Color
-5. Margin
-6. Padding  
+font size decisions. 
+]8 rules for perfect mobile design | by Dorjan Vulaj | UX Collective](https://uxdesign.cc/8-rules-for-perfect-mobile-design-9b9979b838f3)
+1. Font size.  
+ For iOS, use text size that’s at least 11 points, while for Android, choose 14 sp for main text.
+3. Font weight
+4. Line height
+5. Color
+6. Margin
+7. Padding  
 For handheld devices, its value is 16dp for top/bottom/right/left and for tablets it is 64dp right/left and 16dp for top/bottom.
 8. Width
 9. Height
