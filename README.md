@@ -264,5 +264,25 @@ etc…
 or
 outset-s= 16px margin and 1rem margin
 outset-m= 24px margin and 1.5rem margin
-outset-l= 32px margin and 2rem margin
+outset-l= 32px margin and 2rem margin  
+
+##### [8 rules for perfect mobile design](https://medium.com/wayfair-design/more-padding-please-b95e19422acc)  
+You may use circular progress wheels to show form or progress.  
+heading cab be brighter and the body text dull abit to balance color 60-30-10  
+Improve legibility by increasing line height or element spacing.  
+minimum padding of 16dp & iOS is 16pt.  
+When you think about mobile screens think of designing for the smallest screen, then make it responsive to larger screens. android Min width is 360px, iOS min is 375.  
+Try to use standard sequences for your navigation menu, like the iOS tab bar or Android nav drawer, don’t try to reinvent the wheel. Users are familiar with these common patterns, so your app will be more intuitive to them.  
+So, before you deliver a project to the development team remember to handle testing.
+Tools you can use:
+1. UserTesting.com
+2. Enrollapp.com
+3. Test it by yourself, on your colleagues or on the potential users.
+You can use a camera to record their interactions.  
+Padding, also known as white space, is the empty space between and around individual elements of a page layout; these elements could be pieces of copy, images, cards, buttons, icons, etc. When used correctly, white space brings visual clarity and balance to a layout.  
+The rule states that the spacing between every design element should be a multiple of 8 pixels; this means that the spacing could be 8, 16, 24, 32, 40 pixels and so on. This rule brings intentionality to our use of white space and creates visual consistency across our site experience.  
+The greater the padding around a particular element on a page, the greater the emphasis on that element.  
+>Objects or shapes that are close to one another appear to form groups.  
+
+
 
