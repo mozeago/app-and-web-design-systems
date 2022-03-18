@@ -244,4 +244,22 @@ space-m= 24px and 1.5rem
 space-l= 32px and 2rem
 etc…  
 
+#### Margins and Padding  
+inset-1= 16px padding and 1rem padding
+inset-2= 24px padding and 1.5rem padding
+inset-3= 32px padding and 2rem padding
+etc…
+or
+inset-s= 16px padding and 1rem padding
+inset-m= 24px padding and 1.5rem padding
+inset-l= 32px padding and 2rem padding  
+and  
+ outset-1= 16px margin and 1rem margin
+outset-2= 24px margin and 1.5rem margin
+outset-3= 32px margin and 2rem margin
+etc…
+or
+outset-s= 16px margin and 1rem margin
+outset-m= 24px margin and 1.5rem margin
+outset-l= 32px margin and 2rem margin
 
