@@ -6,12 +6,13 @@ font size decisions.
 3. Line height
 4. Color
 5. Margin
-6. Padding
-7. Width
-8. Height
-9. Box shadows
-10. Border radius
-11. Border width Opacity  
+6. Padding  
+For handheld devices, its value is 16dp for top/bottom/right/left and for tablets it is 64dp right/left and 16dp for top/bottom.
+8. Width
+9. Height
+10. Box shadows
+11. Border radius
+12. Border width Opacity  
 
 **Typography:** This term refers to the technique used in styling, formatting, and arranging “printed” (as opposed to handwritten) text.  
 **Typeface:** This is the classification system used to label a family of characters. So, this would be something like Arial, Times New Roman, Calibri, Comic Sans, etc.  
