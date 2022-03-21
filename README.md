@@ -284,5 +284,16 @@ The rule states that the spacing between every design element should be a multip
 The greater the padding around a particular element on a page, the greater the emphasis on that element.  
 >Objects or shapes that are close to one another appear to form groups.  
 
+Whether you’re using any design apps (Adobe XD, Figma, Sketch), default shadows don’t look great. So, don’t use those in your design. Soft shadows are well-known and pretty in design. To do this, try reducing the opacity by 10% to 30% and make it blurry by 15 to 40 pixels. if you have a y-axis set, double the value to get the blur amount. As you can see in the settings below, the y-axis (a) is twice the amount for the blur (b).  
+Try to avoid pure black or the hex code, #000 as your shadow color. Instead, use a darker color based on either the element or its surroundings. That way, the color will look realistic.  
+Use a Separate Layer as a Shadow---for a more decorative purpose, you can duplicate and place it behind the element. This technique will give you more control of the shadow.  
+1.00
+##### Component elevation values
+1. Nav drawer: 16dp
+2. App bar: 4dp
+3. Card: 1dp to 8dp
+4. FAB: 6dp
+5. Button: 2dp to 8dp
+6. Dialog: 24dp
 
 
