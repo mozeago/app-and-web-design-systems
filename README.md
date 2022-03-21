@@ -352,3 +352,10 @@ If you choose to go completely without hover fill color, adjust the hover border
 Some controls, such as buttons and text input fields, have rounder corners. whatever you choose, stick with it and make it a thing. For example, don’t mix and match rounded and square buttons.  
 rounded corners works nicely; in search bars!  
 When you customize your buttons, by example changing the fill color, don’t forget that buttons have hover and pressed effects. You want to adjust them accordingly so they all match the color scheme you’ve chosen for your app.  
+use primary colors for our overall design, like navbar, sidebar, buttons, table colors, placeholders, etc.  
+black color for texts, white color for several layout backgrounds like tables, forms, and sheets/card, and we’re using the background color palette for obviously, our main background. The accent colors are for form validation colors (red) and things like status (light green) etc.  
+##### Analogous colors  
+Hues located next to each other on the color wheeel.  
+Tint: adding white  
+toning:adding grey  
+shadding :adding black  
