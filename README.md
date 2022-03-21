@@ -296,4 +296,59 @@ Use a Separate Layer as a Shadow---for a more decorative purpose, you can duplic
 5. Button: 2dp to 8dp
 6. Dialog: 24dp
 
-
+Note that if you increase the number of layers you’ll have to decrease the alpha value for each layer if you wish to keep the strength somewhat the same.  
+All material objects, regardless of size, have a resting elevation, or default elevation that does not change. If an object changes elevation, it should return to its resting elevation as soon as possible.
+Desktop resting elevation is 2dp below the listed values to accommodate mouse and non-touch environments.  
+[Resting elevation defaults](https://material.io/archive/guidelines/material-design/elevation-shadows.html#elevation-shadows-elevation-android).  
+###### Raised button
+Resting state: 2dp
+Pressed state: 8dp  
+###### Floating action button (FAB)
+Resting state: 6dp
+Pressed state: 12dp
+###### Card
+Resting state: 2dp
+Raised state: 8dp
+###### Menus and sub menus
+Menus: 8dp
+Sub menus: 9dp (+1 dp for each sub menu)  
+###### Dialogs
+24dp
+###### Nav Drawer & Right drawer
+16dp
+###### Modal bottom sheet
+16dp  
+###### Refresh indicator
+3dp
+###### Quick entry/Search bar
+Resting state: 2dp
+Scrolled state: 3dp
+###### Snackbar
+6dp  
+###### Switch
+1dp
+The elevation of a view, represented by the Z property, determines the visual appearance of its shadow: views with higher Z values cast larger, softer shadows. Views with higher Z values occlude views with lower Z values; however, the Z value of a view does not affect the view's size.  
+Shadows are drawn by the parent of the elevated view, and thus subject to standard view clipping, clipped by the parent by default.
+Elevation is also useful to create animations where widgets temporarily rise above the view plane when performing some action.  
+The Z value for a view has two components:
+1. Elevation: The static component.
+2. Translation: The dynamic component used for animations.
+`Z = elevation + translationZ`  
+Aspect ratio of device you're designing for, most common aspect ratios are-
+12:9 or 4:3 (iPhone - 4s, downsampled), (Old Android devices)
+16:8 or 2:1 (Old Android devices)
+16:9 (Standard panoramic ratio), (Android devices till 2017 includes Nexus and Pixel series), (iPhone5 - SE, downsampled),(iPhone 6,7,8 and plus models)
+18:9 (New Android smartphones e.g. Pixel 3 and Pixel 3 xl)
+18.5:9 (New Android smartphones e.g. Galaxy S9 and S9+)
+19:9 (New Android smartphones e.g. Galaxy S10, S10+, Note 10)
+19.5:9 (New Android smartphones e.g. OnePlus 7 pro)(iPhone X and 11 series, upsampled)
+20:9 (OnePlus 7T, Samsung Galaxy A70 & A80)
+21:9 (Xperia Devices, Motorola one, Samsung Galaxy Fold)  
+###### Fonts
+Lato and Lato Light, and often I like to use them both within the same app. I like how fresh and crisp they look compared to other available fonts. So when in doubt, and when you have no brand guide to follow, give them a try. Lato light for display names and lato for fields.  if the app is primarily used via browser, you almost always need to decrease the default font size. The key here is to remember that if you decrease the font size, you need to adjust your field heights accordingly. Otherwise it will just look a bit silly.  
+Manually adjusting the border thickness for all the fields in your form will instantly make it look more polished.  
+By default all text input fields have a fill color as a hover effect and it is definitely not pretty. get rid of the hover fill color entirely or at least replace it with a more subtle fill color. This makes a big difference, just like the field border thickness, so it’s worth to the time.  
+If you choose to go completely without hover fill color, adjust the hover border color slightly to highlight the hovered field. I don’t use green or red for borders because they can be associated with validated fields.  
+Some controls, such as buttons and text input fields, have rounder corners. whatever you choose, stick with it and make it a thing. For example, don’t mix and match rounded and square buttons.  
+rounded corners works nicely; in search bars!  
+When you customize your buttons, by example changing the fill color, don’t forget that buttons have hover and pressed effects. You want to adjust them accordingly so they all match the color scheme you’ve chosen for your app.  
