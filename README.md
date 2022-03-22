@@ -359,3 +359,10 @@ Hues located next to each other on the color wheeel.
 Tint: adding white  
 toning:adding grey  
 shadding :adding black  
+60 % primary color 30% secondary color 10% ascent color  
+[how to choose the right colors for app design](https://www.youtube.com/watch?v=eXcKOqviLE0)  
+**Shade** makes the colors darker and it defines how much black color was added into the hue. 
+**Hue** is an original color as it is without addition of any shade or tint. Any of the secondary or primary colors can be considered a hue. 
+**Tint** shows how much white pigment is present in the color. So basically it makes all colors more light and transparent. 
+**Temperature** defines whether the colors you select are cool (shades of blue, purple, green), warm (shades of red, orange, yellow) or neutral (black, white, brown or grey).
+**Tone** of the color appears when you add both black and white to it. Tone refers to any purely pigmented color that was mixed with purely neutral grey.  
