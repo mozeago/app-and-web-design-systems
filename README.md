@@ -366,4 +366,9 @@ shadding :adding black
 **Tint** shows how much white pigment is present in the color. So basically it makes all colors more light and transparent.  
 **Temperature** defines whether the colors you select are cool (shades of blue, purple, green), warm (shades of red, orange, yellow) or neutral (black, white, brown or grey).  
 **Tone** of the color appears when you add both black and white to it. Tone refers to any purely pigmented color that was mixed with purely neutral grey.  
+Strive to have 50–60 characters for a brief summary.  
+If you plan to show a collection of cards, consider using the same visual properties for all cards in the collection.  
+Use shadows to indicate the card container.  
+a slight drop shadow as a signifier that the entire card is clickable.  
+[card example](card-example.png)  
 
