@@ -371,4 +371,5 @@ If you plan to show a collection of cards, consider using the same visual proper
 Use shadows to indicate the card container.  
 a slight drop shadow as a signifier that the entire card is clickable.  
 [card example](card-example.png)  
+If you plan to use cards in mobile design, consider supporting tap and swipe gestures.  
 
